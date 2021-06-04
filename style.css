@@ -1,0 +1,63 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80px;
+    color: black;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 75px;
+    background-color: rgba(17, 17, 17, 0.712);
+    color: aliceblue;
+    font-size: 20px;
+}
+p{
+    color: aliceblue;
+}
+#login{
+    width: 200px;
+    height: 40px;
+    font-weight: 1000;
+    font-family: 'Quicksand', sans-serif;
+    font-color: black;
+    background-color: skyblue;
+}
+
+.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        
+	}
+
+#Player1_nameInput , #Player2_nameInput
+{
+	display: inline-block;
+    font-color: black;
+    background-color: violet;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
